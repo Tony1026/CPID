@@ -2,8 +2,6 @@
 
 **Cross-Prototype Intervention for Generalizable AI-Generated Image Detection**
 
-This repository provides the CPID model implementation, training core, inference entry point, and method figure.
-
 ## Overview
 
 AI-generated image detectors can learn correlations that change across image generators. CPID organizes generated samples into feature-space prototype groups and uses the group structure to construct controlled authenticity-space interventions. The detector is trained to preserve the real/fake decision under these cross-prototype changes.
